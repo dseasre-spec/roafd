@@ -4,15 +4,29 @@
     "slug": "roafd",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./vanbtoon.png",
+    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./vanbtoon.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#F7F4EF"
     },
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.roafd.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#F7F4EF"
+      },
+      "package": "com.roafd.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
   }
 }

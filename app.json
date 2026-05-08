@@ -1,14 +1,18 @@
 {
   "expo": {
-    "name": "روافد",
-    "slug": "roafed",
+    "name": "roafd",
+    "slug": "roafd",
     "version": "1.0.0",
     "orientation": "portrait",
+    "icon": "./vanbtoon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "backgroundColor": "#1B5E3B"
+      "image": "./vanbtoon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
     },
-    "ios": { "supportsTablet": false },
-    "android": { "adaptiveIcon": { "backgroundColor": "#1B5E3B" } }
+    "assetBundlePatterns": [
+      "**/*"
+    ]
   }
 }
